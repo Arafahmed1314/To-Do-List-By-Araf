@@ -97,3 +97,12 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+@media screen and (max-width: 500px) {
+   .todo-app{
+    max-width: 420px;
+    width: 100%;
+   }
+   .row{
+margin-right: 20px;
+   }
+  }
