@@ -17,7 +17,7 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
-
+word-wrap: break-word;
 }
 .todo-app h2{
     color: #002765;
@@ -44,6 +44,7 @@ input{
     outline: none;
     background: transparent;
     padding: 10px;
+    font-size: 15px;
 }
 button{
     border: none;
@@ -58,7 +59,7 @@ button{
 ul li{
     list-style-type: none;
     font-size: 17px;
-    padding: 12px 8px 12px 50px;
+    padding: 12px 40px 12px 50px;
     user-select: none;
     position: relative;
 }
